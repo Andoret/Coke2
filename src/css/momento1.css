@@ -1,0 +1,67 @@
+@font-face{
+    font-family: SancoaleSoftened;
+    src: url('../assets/font/Sancoale_Softened_Medium.ttf')
+}
+* {
+    font-family: SancoaleSoftened;
+}
+.background-momento{
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ background-image: url(../assets/PNG/fondo_temas.png);
+}
+
+.text-back {
+    color: white ;
+    font-family: SancoaleSoftened;
+    font-size: 1.5vw;
+}
+.back:hover p{
+    color: rgb(237, 105, 105) ;
+    text-shadow: rgba(237, 105, 105, 0.854) 0px 5px 15px !important; 
+}
+.tittle{
+    font-size: 3vw;
+}
+
+img{
+    width: 10vw;
+}
+.row-theme{
+    margin-top: 1%;
+}
+.img-theme1,.img-theme2,.img-theme3,.img-theme4{
+    animation: rotate 3s linear infinite; 
+}
+.img-theme1:hover{
+    filter: drop-shadow(rgb(40, 186, 203) 0px 5px 15px) ;
+}
+.img-theme2:hover{
+    filter: drop-shadow(rgb(222, 69, 14) 0px 5px 15px) ;
+}
+.img-theme3:hover{
+    filter: drop-shadow(rgb(2, 245, 31) 0px 5px 15px) ;
+}
+.img-theme4:hover{
+    filter: drop-shadow(rgb(116, 14, 219) 0px 5px 15px) ;
+}
+a p{
+    font-size: 1.3vw;
+    margin-top: 2%;
+}
+.row-momento-4{
+    margin-top: 10%;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

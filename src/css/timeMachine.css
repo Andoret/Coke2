@@ -1,0 +1,71 @@
+#back-machine{
+   height: 100vh;
+   width: 100vw;
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   align-content: center;
+   background-image: url(../assets/Gif/Estructura-GIF_4-ai.png),url(../assets/Gif/Estructura-GIF_4.gif);
+  }
+
+.carousel-inner{
+   padding-left: 40%;
+   margin-bottom: 15% !important;
+}
+.momento2-img{
+   width: 28vw;
+   margin-left: -15%;
+}
+.momento2-img:hover{
+   margin-left: -18%;
+}
+.item-img{
+   width: 18vw; 
+}
+.carousel-item{
+   width: 20vw;  
+}
+
+.active img {
+   transition: transform 0.4s ease;
+ }
+.active:hover img{
+   transform: scale(0.8); }
+   
+.text-photo{
+   text-align: center;
+   margin: 0;
+   width: 100%;
+   font-size: 2vw;
+  
+}
+
+.button-row button img{
+   width: 7vw;
+}
+.button-row button{
+   margin-top: 40%;
+   
+}
+.button-past button{
+   margin-left: 34%;
+}
+.button-future button{
+   margin-right: 34%;
+}
+
+.button-past button:hover{
+   filter: drop-shadow(rgb(255, 0, 0) 0px 5px 15px) ;
+}
+.button-past button:active { 
+   filter: brightness(50%);
+}
+
+.button-future button:hover{
+   filter: drop-shadow(rgb(51, 255, 0) 0px 5px 15px) ;
+}
+.button-future button:active { 
+   filter: brightness(50%);
+} 
+
+
